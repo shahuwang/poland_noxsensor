@@ -8,18 +8,18 @@ timeZone: "Asia/Shanghai"
 disablePathToLower: true
 menu:
   main:
-    - identifier: czujnik-nox
+    - identifier: NOx-Sensor
       name: Czujnik NOx
       weight: 1
-      pageRef: /produkty/czujnik-nox/mercedes-benz
-    - identifier: Produkty
+      pageRef: /products/nox-sensor/mercedes-benz
+    - identifier: Products
       name: Produkty
       weight: 1
-    - identifier: czujnik-nox
+    - identifier: nox-sensor-sub
       weight: 1
       name: Czujnik NOx
-      pageRef: /produkty/czujnik-nox
-      parent: Produkty
+      pageRef: /products/nox-sensor
+      parent: Products
     # - identifier: urea-dosing-module
     #   name: Urea Dosing Module
     #   weight: 2
