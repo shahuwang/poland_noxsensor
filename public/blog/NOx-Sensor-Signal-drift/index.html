@@ -8,14 +8,14 @@
 <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
-<title>Understanding and Mitigating  NOx Sensor Signal Drift – Fortisor Czujnik NOx</title>
-  <meta name="description" content="Understanding and Mitigating  NOx Sensor Signal Drift" /><link rel="canonical" href="http://localhost:1313/blog/NOx-Sensor-Signal-drift/" itemprop="url" />
+<title>Zrozumienie i łagodzenie dryftu sygnału czujnika NOx – Fortisor Czujnik NOx</title>
+  <meta name="description" content="Czujniki NOx (tlenki azotu) są niezbędnymi elementami nowoczesnych systemów oczyszczania spalin (ATS) w silnikach Diesla, zwłaszcza tych wykorzystujących technologię Selektywnej Redukcji Katalitycznej (SCR)." /><link rel="canonical" href="http://localhost:1313/blog/NOx-Sensor-Signal-drift/" itemprop="url" />
 
-<meta property="og:title" content="Understanding and Mitigating  NOx Sensor Signal Drift">
+<meta property="og:title" content="Zrozumienie i łagodzenie dryftu sygnału czujnika NOx">
 <meta
   property="og:description"
   content="
-    Understanding and Mitigating  NOx Sensor Signal Drift
+    Czujniki NOx (tlenki azotu) są niezbędnymi elementami nowoczesnych systemów oczyszczania spalin (ATS) w silnikach Diesla, zwłaszcza tych wykorzystujących technologię Selektywnej Redukcji Katalitycznej (SCR).
   ">
 <meta
   property="og:type"
@@ -35,14 +35,14 @@
 
 
 
-  <meta itemprop="name" content="Understanding and Mitigating  NOx Sensor Signal Drift">
-  <meta itemprop="description" content="Understanding and Mitigating  NOx Sensor Signal Drift">
+  <meta itemprop="name" content="Zrozumienie i łagodzenie dryftu sygnału czujnika NOx">
+  <meta itemprop="description" content="Czujniki NOx (tlenki azotu) są niezbędnymi elementami nowoczesnych systemów oczyszczania spalin (ATS) w silnikach Diesla, zwłaszcza tych wykorzystujących technologię Selektywnej Redukcji Katalitycznej (SCR).">
   <meta itemprop="datePublished" content="2024-11-02T00:35:28+08:00">
   <meta itemprop="dateModified" content="2024-11-02T00:35:28+08:00">
-  <meta itemprop="wordCount" content="823">
+  <meta itemprop="wordCount" content="812">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Understanding and Mitigating  NOx Sensor Signal Drift">
-  <meta name="twitter:description" content="Understanding and Mitigating  NOx Sensor Signal Drift">
+  <meta name="twitter:title" content="Zrozumienie i łagodzenie dryftu sygnału czujnika NOx">
+  <meta name="twitter:description" content="Czujniki NOx (tlenki azotu) są niezbędnymi elementami nowoczesnych systemów oczyszczania spalin (ATS) w silnikach Diesla, zwłaszcza tych wykorzystujących technologię Selektywnej Redukcji Katalitycznej (SCR).">
 <link href="/css/compiled/main.css" rel="stylesheet" />
     <link href="/css/variables.css" rel="stylesheet" />
     <link href="/css/custom.css" rel="stylesheet" />
@@ -390,38 +390,38 @@
       hextra-sidebar-active-item hx:bg-primary-100 hx:font-semibold hx:text-primary-800 hx:contrast-more:border hx:contrast-more:border-primary-500 hx:dark:bg-primary-400/10 hx:dark:text-primary-600 hx:contrast-more:dark:border-primary-500"
     href="/blog/NOx-Sensor-Signal-drift/"
     
-  >Understanding and Mitigating  NOx Sensor Signal Drift
+  >Zrozumienie i łagodzenie dryftu sygnału czujnika NOx
     </a>
   
     <ul class='hx:flex hx:flex-col hx:gap-1 hx:relative hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:dark:before:bg-neutral-800 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:pr-3 hx:rtl:before:right-0 hx:ltr:ml-3 hx:rtl:mr-3'><li>
               <a
-                href="#introduction-the-critical-role-of-nox-sensors"
+                href="#wprowadzenie-kluczowa-rola-czujnik%c3%b3w-nox"
                 class="hx:flex hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [word-break:break-word] hx:cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:contrast-more:border hx:gap-2 hx:before:opacity-25 hx:before:content-['#'] hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:text-gray-900 hx:contrast-more:dark:text-gray-50 hx:contrast-more:border-transparent hx:contrast-more:hover:border-gray-900 hx:contrast-more:dark:hover:border-gray-50"
-              >Introduction: The Critical Role of NOx Sensors</a>
+              >Wprowadzenie: Kluczowa Rola Czujników NOx</a>
             </li>
           <li>
               <a
-                href="#what-is-nox-sensor-signal-drift"
+                href="#czym-jest-dryft-sygna%c5%82u-czujnika-nox"
                 class="hx:flex hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [word-break:break-word] hx:cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:contrast-more:border hx:gap-2 hx:before:opacity-25 hx:before:content-['#'] hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:text-gray-900 hx:contrast-more:dark:text-gray-50 hx:contrast-more:border-transparent hx:contrast-more:hover:border-gray-900 hx:contrast-more:dark:hover:border-gray-50"
-              >What is NOx Sensor Signal Drift?</a>
+              >Czym Jest Dryft Sygnału Czujnika NOx?</a>
             </li>
           <li>
               <a
-                href="#primary-causes-of-signal-drift-in-harsh-environments"
+                href="#g%c5%82%c3%b3wne-przyczyny-dryftu-sygna%c5%82u-w-trudnych-warunkach"
                 class="hx:flex hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [word-break:break-word] hx:cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:contrast-more:border hx:gap-2 hx:before:opacity-25 hx:before:content-['#'] hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:text-gray-900 hx:contrast-more:dark:text-gray-50 hx:contrast-more:border-transparent hx:contrast-more:hover:border-gray-900 hx:contrast-more:dark:hover:border-gray-50"
-              >Primary Causes of Signal Drift in Harsh Environments</a>
+              >Główne Przyczyny Dryftu Sygnału w Trudnych Warunkach</a>
             </li>
           <li>
               <a
-                href="#impact-on-vehicle-performance-and-compliance"
+                href="#wp%c5%82yw-na-wydajno%c5%9b%c4%87-pojazdu-i-zgodno%c5%9b%c4%87-z-przepisami"
                 class="hx:flex hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [word-break:break-word] hx:cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:contrast-more:border hx:gap-2 hx:before:opacity-25 hx:before:content-['#'] hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:text-gray-900 hx:contrast-more:dark:text-gray-50 hx:contrast-more:border-transparent hx:contrast-more:hover:border-gray-900 hx:contrast-more:dark:hover:border-gray-50"
-              >Impact on Vehicle Performance and Compliance</a>
+              >Wpływ na Wydajność Pojazdu i Zgodność z Przepisami</a>
             </li>
           <li>
               <a
-                href="#the-professional-solution-quality-calibration-and-validation"
+                href="#profesjonalne-rozwi%c4%85zanie-jako%c5%9b%c4%87-kalibracja-i-walidacja"
                 class="hx:flex hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [word-break:break-word] hx:cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:contrast-more:border hx:gap-2 hx:before:opacity-25 hx:before:content-['#'] hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:text-gray-900 hx:contrast-more:dark:text-gray-50 hx:contrast-more:border-transparent hx:contrast-more:hover:border-gray-900 hx:contrast-more:dark:hover:border-gray-50"
-              >The Professional Solution: Quality, Calibration, and Validation</a>
+              >Profesjonalne Rozwiązanie: Jakość, Kalibracja i Walidacja</a>
             </li>
           </ul>
   
@@ -431,7 +431,7 @@
       hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
     href="/blog/Interpreting-NOx-Sensor-Live-Data/"
     
-  >The Art of Diagnostics Interpreting NOx Sensor Live Data
+  >Sztuka Diagnostyki Interpretacja Danych na Żywo z Czujnika NOx
     </a>
               
             </li><li class="hx:flex hx:flex-col "><a
@@ -439,7 +439,7 @@
       hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
     href="/blog/NOx-Sensor-Maintenance/"
     
-  >Maintenance Tips to Protect Your NOx Sensors
+  >Wskazówki dotyczące konserwacji w celu ochrony czujników NOx
     </a>
               
             </li><li class="hx:flex hx:flex-col "><a
@@ -447,7 +447,7 @@
       hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
     href="/blog/Engineering-NOx-Sensors-for-Durability/"
     
-  >Engineering NOx Sensors for 850,000-Mile Durability
+  >Inżynieria Czujników NOx dla Trwałości 850 000 Mil
     </a>
               
             </li><li class="hx:flex hx:flex-col "><a
@@ -463,7 +463,7 @@
       hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
     href="/blog/Mastering-NOx-Diagnostics/"
     
-  >Mastering NOx Diagnostics
+  >Opanowanie Diagnostyki NOx
     </a>
               
             </li><li class="hx:flex hx:flex-col "><a
@@ -471,7 +471,7 @@
       hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
     href="/blog/Dissecting-the-NOx-Sensor-System/"
     
-  >Probe vs. Module Dissecting the NOx Sensor System
+  >Sonda a Moduł Analiza Systemu Czujnika NOx
     </a>
               
             </li><li class="hx:flex hx:flex-col "><a
@@ -489,7 +489,7 @@
       hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
     href="/Kontakt/"
     
-  >CONTACT US
+  >Kontakt
     </a></li>
           <li class=""><a
     class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
@@ -555,35 +555,35 @@
 <nav class="hextra-toc hx:order-last hx:hidden hx:w-64 hx:shrink-0 hx:xl:block hx:print:hidden hx:px-4" aria-label="table of contents">
     <div class="hextra-scrollbar hx:sticky hx:top-16 hx:overflow-y-auto hx:pr-4 hx:pt-6 hx:text-sm [hyphens:auto] hx:max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] hx:ltr:-mr-4 hx:rtl:-ml-4"><p class="hx:mb-4 hx:font-semibold hx:tracking-tight">On this page</p><ul>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:font-medium hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#introduction-the-critical-role-of-nox-sensors">Introduction: The Critical Role of NOx Sensors
+        <a class="hx:font-medium hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#wprowadzenie-kluczowa-rola-czujnik%c3%b3w-nox">Wprowadzenie: Kluczowa Rola Czujników NOx
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:font-medium hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#what-is-nox-sensor-signal-drift">What is NOx Sensor Signal Drift?
+        <a class="hx:font-medium hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#czym-jest-dryft-sygna%c5%82u-czujnika-nox">Czym Jest Dryft Sygnału Czujnika NOx?
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:font-medium hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#primary-causes-of-signal-drift-in-harsh-environments">Primary Causes of Signal Drift in Harsh Environments
+        <a class="hx:font-medium hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#g%c5%82%c3%b3wne-przyczyny-dryftu-sygna%c5%82u-w-trudnych-warunkach">Główne Przyczyny Dryftu Sygnału w Trudnych Warunkach
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#1-chemical-contamination-and-poisoning">1. Chemical Contamination and Poisoning
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#1-zanieczyszczenie-chemiczne-i-zatrucie">1. Zanieczyszczenie Chemiczne i Zatrucie
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#2-thermal-and-hydrothermal-aging">2. Thermal and Hydrothermal Aging
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#2-starzenie-termiczne-i-hydrotermalne">2. Starzenie Termiczne i Hydrotermalne
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#3-electrical-and-component-degradation">3. Electrical and Component Degradation
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#3-degradacja-elektryczna-i-komponent%c3%b3w">3. Degradacja Elektryczna i Komponentów
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:font-medium hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#impact-on-vehicle-performance-and-compliance">Impact on Vehicle Performance and Compliance
+        <a class="hx:font-medium hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#wp%c5%82yw-na-wydajno%c5%9b%c4%87-pojazdu-i-zgodno%c5%9b%c4%87-z-przepisami">Wpływ na Wydajność Pojazdu i Zgodność z Przepisami
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:font-medium hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#the-professional-solution-quality-calibration-and-validation">The Professional Solution: Quality, Calibration, and Validation
+        <a class="hx:font-medium hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#profesjonalne-rozwi%c4%85zanie-jako%c5%9b%c4%87-kalibracja-i-walidacja">Profesjonalne Rozwiązanie: Jakość, Kalibracja i Walidacja
         </a>
       </li></ul>
       <div class="hx:mt-8 hx:border-t hx:bg-white hx:pt-8 hx:shadow-[0_-12px_16px_white] hx:dark:bg-dark hx:dark:shadow-[0_-12px_16px_#111] hx:sticky hx:bottom-0 hx:flex hx:flex-col hx:items-start hx:gap-2 hx:pb-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-t hx:contrast-more:border-neutral-400 hx:contrast-more:shadow-none hx:contrast-more:dark:border-neutral-400">
@@ -603,86 +603,85 @@
         <div class="hx:mt-1.5 hx:flex hx:items-center hx:gap-1 hx:overflow-hidden hx:text-sm hx:text-gray-500 hx:dark:text-gray-400 hx:contrast-more:text-current">
         <div class="hx:whitespace-nowrap hx:transition-colors hx:min-w-[24px] hx:overflow-hidden hx:text-ellipsis hx:hover:text-gray-900 hx:dark:hover:text-gray-100">
           <a href="/blog/">blogu</a>
-        </div><svg class="hx:w-3.5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg><div class="hx:whitespace-nowrap hx:transition-colors hx:font-medium hx:text-gray-700 hx:contrast-more:font-bold hx:contrast-more:text-current hx:dark:text-gray-100 hx:contrast-more:dark:text-current">Understanding and Mitigating  NOx Sensor Signal Drift</div>
+        </div><svg class="hx:w-3.5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg><div class="hx:whitespace-nowrap hx:transition-colors hx:font-medium hx:text-gray-700 hx:contrast-more:font-bold hx:contrast-more:text-current hx:dark:text-gray-100 hx:contrast-more:dark:text-current">Zrozumienie i łagodzenie dryftu sygnału czujnika NOx</div>
   </div>
 
-        <h1 class="hx:mt-2 hx:text-4xl hx:font-bold hx:tracking-tight hx:text-slate-900 hx:dark:text-slate-100">Understanding and Mitigating  NOx Sensor Signal Drift</h1>
+        <h1 class="hx:mt-2 hx:text-4xl hx:font-bold hx:tracking-tight hx:text-slate-900 hx:dark:text-slate-100">Zrozumienie i łagodzenie dryftu sygnału czujnika NOx</h1>
         <div class="hx:mt-4 hx:mb-16 hx:text-gray-500 hx:dark:text-gray-400 hx:text-sm hx:flex hx:items-center hx:flex-wrap hx:gap-y-2"><span class="hx:mr-1">November 2, 2024</span></div>
         <div class="content">
-          <hr>
-<h2><strong>Introduction: The Critical Role of NOx Sensors</strong><span class="hx:absolute hx:-mt-20" id="introduction-the-critical-role-of-nox-sensors"></span>
-    <a href="#introduction-the-critical-role-of-nox-sensors" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>NOx (Nitrogen Oxide) sensors are indispensable components in modern diesel Aftertreatment Systems (ATS), especially those utilizing Selective Catalytic Reduction (SCR) technology. These sensors, typically deployed both upstream and downstream of the SCR catalyst, provide the Electronic Control Unit (ECU) with real-time feedback on NOx levels. This data is the foundation for precisely controlling DEF (Diesel Exhaust Fluid, or Urea) injection, ensuring optimal NOx conversion efficiency and regulatory compliance (e.g., EPA, Euro VI).</p>
-<p>However, the harsh exhaust environment inevitably subjects NOx sensors to degradation, with <strong>Signal Drift</strong> being one of the most insidious forms of failure.</p>
-<h2><strong>What is NOx Sensor Signal Drift?</strong><span class="hx:absolute hx:-mt-20" id="what-is-nox-sensor-signal-drift"></span>
-    <a href="#what-is-nox-sensor-signal-drift" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Signal drift is defined as a <strong>slow, progressive change</strong> in the sensor&rsquo;s output reading over time, despite the actual NOx concentration remaining constant. Unlike a sudden, catastrophic failure that triggers an immediate fault code, drift is a creeping inaccuracy that gradually pushes the sensor reading outside its calibrated parameters.</p>
-<p>This degradation manifests primarily in two ways:</p>
+          <h2><strong>Wprowadzenie: Kluczowa Rola Czujników NOx</strong><span class="hx:absolute hx:-mt-20" id="wprowadzenie-kluczowa-rola-czujników-nox"></span>
+    <a href="#wprowadzenie-kluczowa-rola-czujnik%c3%b3w-nox" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Czujniki NOx (tlenki azotu) są niezbędnymi elementami nowoczesnych systemów oczyszczania spalin (ATS) w silnikach Diesla, zwłaszcza tych wykorzystujących technologię Selektywnej Redukcji Katalitycznej (SCR). Czujniki te, zazwyczaj rozmieszczone zarówno przed, jak i za katalizatorem SCR, dostarczają Jednostce Sterującej Silnika (ECU) informacji zwrotnej w czasie rzeczywistym o poziomach NOx. Dane te stanowią podstawę do precyzyjnego sterowania wtryskiem płynu DEF (Diesel Exhaust Fluid, czyli Mocznik), zapewniając optymalną wydajność konwersji NOx i zgodność z przepisami (np. EPA, Euro VI).</p>
+<p>Jednak surowe środowisko spalin nieuchronnie prowadzi do degradacji czujników NOx, a <strong>Dryft Sygnału</strong> jest jedną z najbardziej podstępnych form awarii.</p>
+<h2><strong>Czym Jest Dryft Sygnału Czujnika NOx?</strong><span class="hx:absolute hx:-mt-20" id="czym-jest-dryft-sygnału-czujnika-nox"></span>
+    <a href="#czym-jest-dryft-sygna%c5%82u-czujnika-nox" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Dryft sygnału definiuje się jako <strong>powolną, postępującą zmianę</strong> w odczycie wyjściowym czujnika w czasie, mimo że rzeczywiste stężenie NOx pozostaje stałe. W przeciwieństwie do nagłej, katastrofalnej awarii, która wywołuje natychmiastowy kod błędu, dryft jest podstępną niedokładnością, która stopniowo wypycha odczyt czujnika poza jego skalibrowane parametry.</p>
+<p>Ta degradacja objawia się głównie na dwa sposoby:</p>
 <ol>
-<li><strong>Offset Drift (Zero-Point Drift):</strong> The sensor output shifts higher or lower when the actual NOx concentration is zero (e.g., in clean air or during a calibration check).</li>
-<li><strong>Gain Drift (Sensitivity Drift):</strong> The sensor&rsquo;s response to a change in NOx concentration becomes weaker or stronger than it should be, affecting the accuracy of high-concentration readings.</li>
+<li><strong>Dryft Przesunięcia (Dryft Punktu Zerowego):</strong> Wartość wyjściowa czujnika przesuwa się w górę lub w dół, gdy rzeczywiste stężenie NOx wynosi zero (np. w czystym powietrzu lub podczas kontroli kalibracji).</li>
+<li><strong>Dryft Wzmocnienia (Dryft Czułości):</strong> Reakcja czujnika na zmianę stężenia NOx staje się słabsza lub silniejsza, niż powinna, co wpływa na dokładność odczytów przy wysokich stężeniach.</li>
 </ol>
-<h2><strong>Primary Causes of Signal Drift in Harsh Environments</strong><span class="hx:absolute hx:-mt-20" id="primary-causes-of-signal-drift-in-harsh-environments"></span>
-    <a href="#primary-causes-of-signal-drift-in-harsh-environments" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>The extreme operational conditions of the exhaust system are the root cause of long-term signal drift:</p>
-<h3>1. <strong>Chemical Contamination and Poisoning</strong><span class="hx:absolute hx:-mt-20" id="1-chemical-contamination-and-poisoning"></span>
-    <a href="#1-chemical-contamination-and-poisoning" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>The most significant factor. The electro-chemical sensing elements within the probe (often made of <strong>Yttria-Stabilized Zirconia (YSZ)</strong> ceramic) are highly susceptible to chemical exposure:</p>
+<h2><strong>Główne Przyczyny Dryftu Sygnału w Trudnych Warunkach</strong><span class="hx:absolute hx:-mt-20" id="główne-przyczyny-dryftu-sygnału-w-trudnych-warunkach"></span>
+    <a href="#g%c5%82%c3%b3wne-przyczyny-dryftu-sygna%c5%82u-w-trudnych-warunkach" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Ekstremalne warunki eksploatacyjne układu wydechowego są pierwotną przyczyną długotrwałego dryftu sygnału:</p>
+<h3>1. <strong>Zanieczyszczenie Chemiczne i Zatrucie</strong><span class="hx:absolute hx:-mt-20" id="1-zanieczyszczenie-chemiczne-i-zatrucie"></span>
+    <a href="#1-zanieczyszczenie-chemiczne-i-zatrucie" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Najważniejszy czynnik. Elektrochemiczne elementy pomiarowe w sondzie (często wykonane z ceramiki <strong>stabilizowanej tlenkiem itru YSZ (Yttria-Stabilized Zirconia)</strong>) są bardzo podatne na ekspozycję chemiczną:</p>
 <ul>
-<li><strong>Soot and Ash:</strong> Short-distance driving, high oil consumption, or engine misfires lead to soot coating the sensor head, blocking gas diffusion paths and interfering with the electrochemical reaction.</li>
-<li><strong>Sulphur and Phosphorous:</strong> Contaminants from fuel or lubricating oil can chemically &ldquo;poison&rdquo; the electrode surface, leading to irreversible loss of sensitivity over time.</li>
-<li><strong>DEF Residue (AdBlue registered  Crystallization):</strong> Faulty DEF dosing or poor quality DEF can lead to urea crystallization (<strong>AdBlue Crystals</strong>) and <strong>Ammonia Slip</strong> (NH3) which deposits on the sensor, severely altering its calibration. Ammonia Slip is a particularly tricky issue, as NOx sensors are cross-sensitive to NH3, directly causing signal error.</li>
+<li><strong>Sadza i Popiół:</strong> Jazda na krótkich dystansach, wysokie zużycie oleju lub wypadanie zapłonu silnika prowadzą do pokrycia głowicy czujnika sadzą, blokując ścieżki dyfuzji gazów i zakłócając reakcję elektrochemiczną.</li>
+<li><strong>Siarka i Fosfor:</strong> Zanieczyszczenia z paliwa lub oleju smarowego mogą chemicznie &ldquo;zatruć&rdquo; powierzchnię elektrody, prowadząc do nieodwracalnej utraty czułości w miarę upływu czasu.</li>
+<li><strong>Pozostałości DEF (Krystalizacja AdBlue):</strong> Wadliwe dozowanie DEF lub płyn DEF niskiej jakości mogą prowadzić do krystalizacji mocznika (<strong>kryształów AdBlue</strong>) i <strong>poślizgu amoniaku</strong> (NH3), który osadza się na czujniku, poważnie zmieniając jego kalibrację. Poślizg amoniaku jest szczególnie trudnym problemem, ponieważ czujniki NOx są wrażliwe również na NH3, co bezpośrednio powoduje błąd sygnału.</li>
 </ul>
-<h3>2. <strong>Thermal and Hydrothermal Aging</strong><span class="hx:absolute hx:-mt-20" id="2-thermal-and-hydrothermal-aging"></span>
-    <a href="#2-thermal-and-hydrothermal-aging" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>NOx sensors operate at extremely high temperatures (up to 800$^{\circ}$C) to function correctly and to self-clean soot.</p>
+<h3>2. <strong>Starzenie Termiczne i Hydrotermalne</strong><span class="hx:absolute hx:-mt-20" id="2-starzenie-termiczne-i-hydrotermalne"></span>
+    <a href="#2-starzenie-termiczne-i-hydrotermalne" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Czujniki NOx działają w ekstremalnie wysokich temperaturach (do $800^{\circ}\text{C}$), aby prawidłowo funkcjonować i samooczyszczać się z sadzy.</p>
 <ul>
-<li><strong>Thermal Cycling:</strong> Constant heating and cooling during vehicle operation cause materials (ceramics, metal housing, electrodes) to expand and contract at different rates, leading to internal mechanical stress and micro-cracks in the sensing element, resulting in offset drift.</li>
-<li><strong>Sensor Aging:</strong> Over extended use, the ceramic material and electrode layers naturally age, leading to a gradual and inevitable decrease in their electrochemical stability and response rate.</li>
+<li><strong>Cykliczność Termiczna:</strong> Ciągłe nagrzewanie i chłodzenie podczas pracy pojazdu powoduje rozszerzanie się i kurczenie materiałów (ceramika, metalowa obudowa, elektrody) w różnym tempie, co prowadzi do wewnętrznych naprężeń mechanicznych i mikropęknięć w elemencie pomiarowym, skutkując dryftem przesunięcia.</li>
+<li><strong>Starzenie się Czujnika:</strong> W wyniku długotrwałego użytkowania materiał ceramiczny i warstwy elektrod naturalnie się starzeją, prowadząc do stopniowego i nieuniknionego spadku ich stabilności elektrochemicznej i szybkości reakcji.</li>
 </ul>
-<h3>3. <strong>Electrical and Component Degradation</strong><span class="hx:absolute hx:-mt-20" id="3-electrical-and-component-degradation"></span>
-    <a href="#3-electrical-and-component-degradation" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
-<li><strong>Heater Circuit Degradation:</strong> The internal heater is vital for maintaining the sensor&rsquo;s operating temperature. Degradation of the heater element or its control circuit can lead to inconsistent operating temperatures, directly affecting the signal output stability.</li>
+<h3>3. <strong>Degradacja Elektryczna i Komponentów</strong><span class="hx:absolute hx:-mt-20" id="3-degradacja-elektryczna-i-komponentów"></span>
+    <a href="#3-degradacja-elektryczna-i-komponent%c3%b3w" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li><strong>Degradacja Obwodu Grzewczego:</strong> Wewnętrzny grzejnik jest niezbędny do utrzymania temperatury pracy czujnika. Degradacja elementu grzejnego lub jego obwodu sterującego może prowadzić do niespójnych temperatur roboczych, bezpośrednio wpływając na stabilność sygnału wyjściowego.</li>
 </ul>
-<h2><strong>Impact on Vehicle Performance and Compliance</strong><span class="hx:absolute hx:-mt-20" id="impact-on-vehicle-performance-and-compliance"></span>
-    <a href="#impact-on-vehicle-performance-and-compliance" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Signal drift is often a &ldquo;silent killer&rdquo; of the SCR system efficiency:</p>
+<h2><strong>Wpływ na Wydajność Pojazdu i Zgodność z Przepisami</strong><span class="hx:absolute hx:-mt-20" id="wpływ-na-wydajność-pojazdu-i-zgodność-z-przepisami"></span>
+    <a href="#wp%c5%82yw-na-wydajno%c5%9b%c4%87-pojazdu-i-zgodno%c5%9b%c4%87-z-przepisami" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Dryft sygnału jest często &ldquo;cichym zabójcą&rdquo; wydajności systemu SCR:</p>
 <table>
   <thead>
       <tr>
-          <th style="text-align: left">Drift Impact</th>
-          <th style="text-align: left">Resulting Vehicle Issue</th>
-          <th style="text-align: left">Compliance Risk</th>
+          <th style="text-align: left">Wpływ Dryftu</th>
+          <th style="text-align: left">Wynikający Problem z Pojazdem</th>
+          <th style="text-align: left">Ryzyko Zgodności</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left"><strong>Inaccurate NOx Feedback</strong></td>
-          <td style="text-align: left">The ECU uses incorrect NOx values for DEF dosing calculation.</td>
-          <td style="text-align: left"><strong>Excess NOx Emissions:</strong> The vehicle may fail OBD checks or PEMS (Real Driving Emissions) tests, risking non-compliance.</td>
+          <td style="text-align: left"><strong>Niedokładna Informacja Zwrotna NOx</strong></td>
+          <td style="text-align: left">ECU używa nieprawidłowych wartości NOx do obliczania dozowania DEF.</td>
+          <td style="text-align: left"><strong>Nadmierna Emisja NOx:</strong> Pojazd może nie przejść kontroli OBD lub testów PEMS (Rzeczywiste Emisje Podczas Jazdy), ryzykując niezgodność.</td>
       </tr>
       <tr>
-          <td style="text-align: left"><strong>Over/Under DEF Dosing</strong></td>
-          <td style="text-align: left"><strong>Over-Dosing:</strong> Leads to Ammonia Slip (wasted DEF, odor) and potential downstream DEF crystallization blockage. <strong>Under-Dosing:</strong> Leads to insufficient NOx reduction.</td>
-          <td style="text-align: left"><strong>Limp Mode (Power De-rating):</strong> The vehicle enters a low-power mode to protect the emissions system and enforce compliance.</td>
+          <td style="text-align: left"><strong>Nadmierne/Niewystarczające Dozowanie DEF</strong></td>
+          <td style="text-align: left"><strong>Nadmierne Dozowanie:</strong> Prowadzi do poślizgu amoniaku (marnowanie DEF, zapach) i potencjalnej blokady krystalizacyjnej DEF w układzie. <strong>Niewystarczające Dozowanie:</strong> Prowadzi do niedostatecznej redukcji NOx.</td>
+          <td style="text-align: left"><strong>Tryb Awarjny (Ograniczenie Mocy):</strong> Pojazd przechodzi w tryb niskiej mocy, aby chronić system emisji i wymusić zgodność z przepisami.</td>
       </tr>
       <tr>
-          <td style="text-align: left"><strong>Slow Response Time</strong></td>
-          <td style="text-align: left">The sensor&rsquo;s ability to react quickly to engine load changes is impaired, causing control lag.</td>
-          <td style="text-align: left">Poor real-time SCR control during transient driving cycles.</td>
+          <td style="text-align: left"><strong>Wolny Czas Reakcji</strong></td>
+          <td style="text-align: left">Zdolność czujnika do szybkiej reakcji na zmiany obciążenia silnika jest osłabiona, powodując opóźnienie sterowania.</td>
+          <td style="text-align: left">Słaba kontrola SCR w czasie rzeczywistym podczas przejściowych cykli jazdy.</td>
       </tr>
   </tbody>
 </table>
-<h2><strong>The Professional Solution: Quality, Calibration, and Validation</strong><span class="hx:absolute hx:-mt-20" id="the-professional-solution-quality-calibration-and-validation"></span>
-    <a href="#the-professional-solution-quality-calibration-and-validation" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>To counter the detrimental effects of signal drift, our NOx sensor products are engineered and tested to the highest standards:</p>
+<h2><strong>Profesjonalne Rozwiązanie: Jakość, Kalibracja i Walidacja</strong><span class="hx:absolute hx:-mt-20" id="profesjonalne-rozwiązanie-jakość-kalibracja-i-walidacja"></span>
+    <a href="#profesjonalne-rozwi%c4%85zanie-jako%c5%9b%c4%87-kalibracja-i-walidacja" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Aby przeciwdziałać szkodliwym skutkom dryftu sygnału, nasze czujniki NOx są projektowane i testowane zgodnie z najwyższymi standardami:</p>
 <ol>
-<li><strong>High-Grade Sensing Element:</strong> We utilize advanced <strong>Zirconia-based ceramic components</strong> with enhanced anti-poisoning properties to maximize resistance against sulphur and soot accumulation, preserving initial calibration for longer.</li>
-<li><strong>Precise Factory Calibration:</strong> Every sensor undergoes a multi-point calibration process using certified NO and NOx gas mixtures across a range of temperatures, ensuring the signal is accurate and stable from 0 ppm to full scale.</li>
-<li><strong>OEM-Grade Heater Control Logic:</strong> Our sensors feature a robust heater circuit and ECU-compatible control logic to rapidly reach and maintain the optimum operating temperature, minimizing thermal shock and ensuring quick, stable readings even during cold starts.</li>
-<li><strong>CAN Communication Integrity:</strong> We verify the sensor&rsquo;s CAN communication protocol is 100% compatible with the target ECU to ensure the drift-monitoring algorithms within the vehicle&rsquo;s onboard diagnostics (OBD) system can accurately assess and flag degradation before performance is critically affected.</li>
+<li><strong>Wysokiej Jakości Element Pomiarowy:</strong> Stosujemy zaawansowane <strong>komponenty ceramiczne na bazie tlenku cyrkonu</strong> o zwiększonych właściwościach antyzatruciowych, aby zmaksymalizować odporność na gromadzenie się siarki i sadzy, zachowując początkową kalibrację przez dłuższy czas.</li>
+<li><strong>Precyzyjna Kalibracja Fabryczna:</strong> Każdy czujnik przechodzi wielopunktowy proces kalibracji z użyciem certyfikowanych mieszanek gazów NO i NOx w różnych temperaturach, zapewniając dokładność i stabilność sygnału od 0 ppm do pełnej skali.</li>
+<li><strong>Logika Sterowania Grzałką Klasy OEM:</strong> Nasze czujniki posiadają solidny obwód grzewczy i logikę sterowania kompatybilną z ECU, aby szybko osiągnąć i utrzymać optymalną temperaturę roboczą, minimalizując szok termiczny i zapewniając szybkie, stabilne odczyty nawet podczas zimnych rozruchów.</li>
+<li><strong>Integralność Komunikacji CAN:</strong> Weryfikujemy, czy protokół komunikacyjny CAN czujnika jest w 100% kompatybilny z docelowym ECU, aby algorytmy monitorowania dryftu w pokładowym systemie diagnostycznym pojazdu (OBD) mogły dokładnie oceniać i sygnalizować degradację, zanim wydajność zostanie krytycznie naruszona.</li>
 </ol>
 <hr>
-<p><strong>Need assistance in diagnosing NOx sensor signal drift?</strong> Our technical support team specializes in advanced SCR diagnostics to help you maintain fleet efficiency and emissions compliance. Would you like to consult our diagnostic guides for common NOx fault codes?</p>
+<p><strong>Potrzebujesz pomocy w diagnozowaniu dryftu sygnału czujnika NOx?</strong> Nasz zespół wsparcia technicznego specjalizuje się w zaawansowanej diagnostyce SCR, aby pomóc Ci utrzymać wydajność floty i zgodność z przepisami dotyczącymi emisji. Czy chciałbyś/chciałabyś zapoznać się z naszymi przewodnikami diagnostycznymi dotyczącymi typowych kodów błędów NOx?</p>
 
         </div><div class="hx:mt-16"></div><div class="hx:mb-8 hx:flex hx:items-center hx:border-t hx:pt-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-neutral-400 hx:dark:contrast-more:border-neutral-400 hx:print:hidden"><a
         href="/blog/Interpreting-NOx-Sensor-Live-Data/"
-        title="The Art of Diagnostics Interpreting NOx Sensor Live Data"
+        title="Sztuka Diagnostyki Interpretacja Danych na Żywo z Czujnika NOx"
         class="hx:flex hx:max-w-[50%] hx:items-center hx:gap-1 hx:py-4 hx:text-base hx:font-medium hx:text-gray-600 hx:transition-colors [word-break:break-word] hx:hover:text-primary-600 hx:dark:text-gray-300 hx:md:text-lg hx:ltr:pr-4 hx:rtl:pl-4"
-      ><svg class="hx:inline hx:h-5 hx:shrink-0 hx:ltr:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>The Art of Diagnostics Interpreting NOx Sensor Live Data</a><a
+      ><svg class="hx:inline hx:h-5 hx:shrink-0 hx:ltr:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>Sztuka Diagnostyki Interpretacja Danych na Żywo z Czujnika NOx</a><a
         href="/blog/The-Future-of-NOx-Sensor-Technology/"
         title="The Future of NOx Sensor Technology"
         class="hx:flex hx:max-w-[50%] hx:items-center hx:gap-1 hx:py-4 hx:text-base hx:font-medium hx:text-gray-600 hx:transition-colors [word-break:break-word] hx:hover:text-primary-600 hx:dark:text-gray-300 hx:md:text-lg hx:ltr:ml-auto hx:ltr:pl-4 hx:ltr:text-right hx:rtl:mr-auto hx:rtl:pr-4 hx:rtl:text-left"
