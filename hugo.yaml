@@ -1,5 +1,5 @@
 baseURL: https://pl.fortisor.com/
-languageCode: pl-pl
+languageCode: pl-PL
 title: Fortisor Czujnik NOx
 module:
   imports:
