@@ -1,0 +1,60 @@
+baseURL: https://pl.fortisor.com/
+languageCode: pl-pl
+title: Fortisor Czujnik NOx
+module:
+  imports:
+    - path: github.com/imfing/hextra
+timeZone: "Asia/Shanghai"
+disablePathToLower: true
+menu:
+  main:
+    - identifier: czujnik-nox
+      name: Czujnik NOx
+      weight: 1
+      pageRef: /produkty/czujnik-nox/mercedes-benz
+    - identifier: Produkty
+      name: Produkty
+      weight: 1
+    - identifier: czujnik-nox
+      weight: 1
+      name: Czujnik NOx
+      pageRef: /produkty/czujnik-nox
+      parent: Produkty
+    # - identifier: urea-dosing-module
+    #   name: Urea Dosing Module
+    #   weight: 2
+    #   pageRef: /produkty/urea-dosing-module
+    #   parent: Produkty
+    # - identifier: Tester
+    #   name: Tester
+    #   weight: 3
+    #   pageRef: /produkty/tester
+    #   parent: Produkty
+    #   breadcrumbs: true
+    - name: Blogu
+      pageRef: /blog
+      weight: 2
+    - name: Kontakt
+      pageRef: /Kontakt
+      weight: 3
+    - name: O nas
+      pageRef: /O-nas
+      weight: 4
+    - name: Search
+      weight: 5
+      params:
+        type: search
+# 是否开启轮播图
+enableCarousel: true
+params:
+  # Search
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      index: content
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    appleTouchIcon: "/apple-touch-icon.png"
