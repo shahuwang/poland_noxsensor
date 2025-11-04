@@ -18,73 +18,71 @@ swiper_images:
   - "./assets/scania_10.avif"
 ---
 
-*Fortisor® offers the complete OE cross-reference list for all Scania NOx sensors.  
-Find the perfect high-quality replacement sensor for your Heavy-duty trucks, long-distance buses, city buses, power generators, and marine engines by part number.*
+*Fortisor® oferuje kompletną listę numerów referencyjnych OE dla wszystkich czujników NOx do Scania.
+Znajdź idealny, wysokiej jakości zamiennik dla swojego samochodu osobowego, SUV-a lub pojazdu użytkowego po numerze części.*
 
-{{< swiper ratio="4/3" fit="cover" maxWidth="800px" maxHeight="600px">}}
+{{< swiper ratio="4/3" fit="cover" maxWidth="800px" maxHeight="800px">}}
 
-#### Global Procurement Made Easy: Your Trusted Partner
-**Fortisor®** understands the stringent demands placed on NOx sensors within the Scania SCR system—**precision, reliability, and longevity are non-negotiable**.This page provides the complete OE Cross Reference List for Scania car, SUV, and commercial applications. We are not just a supplier; we are a technical brand deeply focused on emission control technology.
+#### Łatwe Globalne Zamówienia: Twój Zaufany Partner
+**Fortisor®** rozumie rygorystyczne wymagania stawiane czujnikom NOx w systemach SCR Scania—**precyzja, niezawodność i trwałość są priorytetem**. Ta strona zawiera kompletną Listę Numerów Referencyjnych OE dla zastosowań w samochodach osobowych, SUV-ach i pojazdach użytkowych Scania. Nie jesteśmy tylko dostawcą; jesteśmy marką techniczną głęboko skoncentrowaną na technologii kontroli emisji.
 
-Choosing **Fortisor®** is choosing proven durability and precision designed to exceed common aftermarket reliability.  
+Wybierając **Fortisor®**, wybierasz sprawdzoną trwałość i precyzję zaprojektowaną, by przewyższać standardową niezawodność części zamiennych.
 
-Whether you are an individual customer or a corporate buyer, **new to international purchasing or concerned about payment security and logistics**, **Fortisor®** is here to simplify the entire process. You have a need for high-quality NOx sensors, and we have the professional service to ensure you receive your goods **smoothly, securely, and reliably**.  
+Niezależnie od tego, czy jesteś klientem indywidualnym, czy nabywcą korporacyjnym, **nowym w międzynarodowych zakupach czy obawiasz się o bezpieczeństwo płatności i logistykę**, **Fortisor®** jest tutaj, aby uprościć cały proces. Potrzebujesz wysokiej jakości czujników NOx, a my mamy profesjonalną obsługę, aby zapewnić, że otrzymasz swoje towary **płynnie, bezpiecznie i niezawodnie**.
 
-We provide expert guidance to resolve your concerns regarding:  
-1. Ordering Process: Clear, step-by-step guidance on initiating your purchase.  
-2. Payment Methods: Secure and accessible payment options to ensure fund safety.  
-3. Logistics & Delivery: Reliable shipping solutions with transparent tracking.  
-4. Customs Clearance: Assistance and documentation to navigate international customs procedures. 
+Oferujemy fachowe doradztwo w zakresie:
+1. Procesu Zamawiania: Jasne, krok po kroku wskazówki dotyczące inicjowania zakupu.
+2. Metod Płatności: Bezpieczne i dostępne opcje płatności zapewniające bezpieczeństwo środków.
+3. Logistyka i Dostawa: Niezawodne rozwiązania wysyłkowe z przejrzystym śledzeniem.
+4. Odprawa Celna: Pomoc i dokumentacja w celu przeprowadzenia międzynarodowych procedur celnych.
 
-For a detailed, comprehensive walkthrough of our purchasing system, please refer to our dedicated Procurement Guide page:  
-***[Procurement Guide Link] [https://fortisor.com/blog/guide-to-procurement/](https://fortisor.com/blog/guide-to-procurement/)***
+Szczegółowy, kompleksowy opis naszego systemu zakupów znajdziesz na naszej dedykowanej stronie Przewodnika Zakupów:
+***[Link do Przewodnika Zakupów] [https://pl.fortisor.com/blog/guide-to-procurement/](https://pl.fortisor.com/blog/guide-to-procurement/)***
 
-#### Ready to Order? Contact Our Team Today!
-If you have a need for NOx sensors, please contact us immediately at **fortisor@163.com**.  
-No English? No Problem! You can send your inquiry in your **native language** (e.g., German, French, Spanish, Chinese, etc.). We guarantee a prompt response to answer all your questions and provide the expert procurement service necessary to ensure you receive your goods safely and without complications.
+#### Gotów do Zamówienia? Skontaktuj się z Naszym Zespołem Już Dziś!
+Jeśli potrzebujesz czujników NOx, skontaktuj się z nami natychmiast pod adresem **fortisor@163.com**.
+Nie mówisz po angielsku? Nie ma problemu! Możesz wysłać zapytanie w swoim **języku ojczystym** (np. niemieckim, francuskim, hiszpańskim, chińskim, itd.). Gwarantujemy szybką odpowiedź, aby rozwiać wszystkie Twoje wątpliwości i zapewnić profesjonalną obsługę zamówienia, dzięki której otrzymasz swoje towary bezpiecznie i bez komplikacji.
 
-#### Fortisor®: A Technology-Focused Emission Control Specialist
-Fortisor® specializes in the R&D and manufacturing of high-precision automotive sensors, with a particular focus on Nitrogen Oxide (NOx) emission control technology. We implement a stringent internal Quality Management System across every step of production, utilizing Multi-Point QC for maximum integrity. Our core strength lies in our deep specialization and technical focus on NOx sensors, enabling us to deliver robust, high-reliability replacement solutions for complex European systems like those found in Scania.
+#### Fortisor®: Specjalista w Technologii Kontroli Emisji
+Fortisor® specjalizuje się w badaniach, rozwoju i produkcji wysokiej precyzji czujników samochodowych, ze szczególnym naciskiem na technologię kontroli emisji tlenków azotu (NOx). Wdrażamy rygorystyczny wewnętrzny System Zarządzania Jakością na każdym etapie produkcji, wykorzystując Wielopunktową Kontrolę Jakości (QC) dla maksymalnej integralności. Nasza główna siła tkwi w głębokiej specjalizacji i technicznym skupieniu na czujnikach NOx, co pozwala nam dostarczać solidne, wysoce niezawodne rozwiązania zamienne dla złożonych systemów europejskich, takich jak te stosowane w Scania.
 
-#### Fortisor® NOx Sensors: Engineered for Scania Reliability
-Every Fortisor® sensor is a complete, pre-calibrated system, consisting of two integral parts: the Ceramic Sensing Probe and the Control Unit (ECU). We supply a fully programmed solution, guaranteeing accurate communication via the CAN bus and ensuring a seamless, Plug-and-Play Precision experience, with zero latency and the elimination of common recurring error codes.
+#### Czujniki NOx Fortisor®: Zaprojektowane dla Niezawodności Scania
+Każdy czujnik Fortisor® to kompletny, wstępnie skalibrowany system, składający się z dwóch integralnych części: ceramicznej sondy pomiarowej i jednostki sterującej (ECU). Dostarczamy w pełni zaprogramowane rozwiązanie, gwarantujące dokładną komunikację przez magistralę CAN i zapewniające bezproblemową precyzję Plug-and-Play, z zerową latencją i eliminacją powszechnych, powtarzających się kodów błędów.
 
-#### Unrivaled Technical Edge: Precision, Reliability, and Broad Compatibility
-Fortisor® sensors stand apart from standard aftermarket alternatives. We believe that true quality is measured in three critical areas:
-1.  **Sensing Precision & Stability (Signal Drift Prevention):**
-    > **[NGK Ceramic Heart]**: We utilize **NGK high-precision ceramic elements** paired with advanced encapsulation technology. Every sensor undergoes **multi-point calibration** with standard gases during production, ensuring the output signal remains **stable and reliable** even under extreme temperatures, high humidity, and severe vibration.
-2.  **ECU Hardware Reliability (Automotive-Grade Chip):**
-    > **[AEC-Q100 Certified]**: The ECU chips used in all Fortisor® NOx sensors are **Automotive-Grade (AEC-Q100 certified)**. They pass rigorous environmental and long-term durability tests, guaranteeing continuous, stable operation across varying temperatures, humidity, and vibration, preventing electronics failures seen in non-certified components.
-3.  **Communication Protocol & Coverage (The Fortisor® Advantage):**
-    > **[Superior Multi-Protocol Compatibility]**: Our ECU chips feature **Multi-Protocol Compatibility Technology**, enabling the sensor to communicate seamlessly with the ECUs of a *wider range of Scania models*. This broad compatibility means that, **provided the physical probe shape is correct, a single Fortisor® part can service multiple OE numbers and vehicle variants**, dramatically simplifying inventory and spare parts management for workshops.
+#### Niezrównana Przewaga Techniczna: Precyzja, Niezawodność i Szeroka Kompatybilność
+Czujniki Fortisor® wyróżniają się na tle standardowych zamienników. Wierzymy, że prawdziwa jakość jest mierzona w trzech krytycznych obszarach:
+1.  **Precyzja i Stabilność Pomiaru (Zapobieganie Dryfowi Sygnału):**
+    > **[Ceramiczny Rdzeń NGK]**: Wykorzystujemy **wysokiej precyzji elementy ceramiczne NGK** połączone z zaawansowaną technologią hermetyzacji. Każdy czujnik przechodzi **wielopunktową kalibrację** ze standardowymi gazami podczas produkcji, zapewniając, że sygnał wyjściowy pozostaje **stabilny i niezawodny** nawet w ekstremalnych temperaturach, wysokiej wilgotności i silnych wibracjach.
+2.  **Niezawodność Sprzętu ECU (Układ Scalony Klasy Motoryzacyjnej):**
+    > **[Certyfikat AEC-Q100]**: Chipy ECU używane we wszystkich czujnikach NOx Fortisor® posiadają **Certyfikat Klasy Motoryzacyjnej (AEC-Q100)**. Przechodzą rygorystyczne testy środowiskowe i długoterminowej trwałości, gwarantując ciągłą, stabilną pracę w różnych temperaturach, wilgotności i wibracjach, zapobiegając awariom elektroniki obserwowanym w komponentach bez certyfikacji.
+3.  **Protokół Komunikacyjny i Pokrycie (Przewaga Fortisor®):**
+    > **[Doskonała Kompatybilność Wieloprotokołowa]**: Nasze chipy ECU wyposażone są w **Technologię Kompatybilności Wieloprotokołowej**, umożliwiającą czujnikowi płynną komunikację z jednostkami ECU **szerszej gamy modeli Scania**. Ta szeroka kompatybilność oznacza, że, **pod warunkiem poprawnego kształtu fizycznego sondy, pojedyncza część Fortisor® może obsłużyć wiele numerów OE i wariantów pojazdów**, co znacznie upraszcza zarządzanie zapasami i częściami zamiennymi dla warsztatów.
 
-#### Transparent Value: Performance Without the Premium Price
-At **Fortisor®**, we believe that effective emission control should be accessible, not a burden. We are committed to combating the excessively high repair costs often imposed by certain manufacturers, ensuring that environmental responsibility does not come at an unfair price to the average vehicle owner.
+#### Przejrzysta Wartość: Wydajność Bez Wygórowanej Ceny
+W **Fortisor®** wierzymy, że skuteczna kontrola emisji powinna być dostępna, a nie obciążeniem. Zobowiązujemy się do walki z nadmiernie wysokimi kosztami napraw często narzucanymi przez niektórych producentów, zapewniając, że odpowiedzialność środowiskowa nie wiąże się z nieuczciwą ceną dla przeciętnego właściciela pojazdu.
 
-While we do not list prices publicly, our single unit cost is typically only **10% to 20% of the Original Equipment (OE) manufacturer’s price**.
+Choć nie publikujemy cen publicznie, nasz koszt jednostkowy wynosi zazwyczaj tylko **10% do 20% ceny producenta Original Equipment (OE)**.
 
-Whether you are looking for single-unit savings or bulk purchase profitability, we guarantee our prices will be highly competitive and entirely satisfactory.
+Niezależnie od tego, czy szukasz oszczędności przy zakupie pojedynczej sztuki, czy rentowności przy zakupie hurtowym, gwarantujemy, że nasze ceny będą wysoce konkurencyjne i w pełni satysfakcjonujące.
 
-For all pricing inquiries, please contact us directly at fortisor@163.com. We are ready to discuss bulk pricing that ensures excellent profit margins for our professional partners.
+W sprawie wszystkich zapytań cenowych prosimy o bezpośredni kontakt pod adresem fortisor@163.com. Jesteśmy gotowi omówić ceny hurtowe, które zapewnią doskonałe marże zysku dla naszych profesjonalnych partnerów.
 
-#### Fortisor® Quality Assurance: Our Warranty Commitment
- We stand firmly behind the quality and durability of our technology.
+#### Gwarancja Jakości Fortisor®: Nasze Zobowiązanie Gwarancyjne
+Stoimy pewnie za jakością i trwałością naszej technologii.
 
-###### 1. Standard Warranty
-All Fortisor NOx Sensors are covered by a **12-Month Warranty** starting from the date of delivery.  
-Under this warranty, you have the choice of a free replacement unit or a full refund of the product value.
+###### 1. Standardowa Gwarancja
+Wszystkie czujniki NOx Fortisor objęte są **12-Miesięczną Gwarancją** liczoną od daty dostawy.
+W ramach tej gwarancji masz wybór: bezpłatna jednostka zamienna lub pełny zwrot wartości produktu.
 
-###### 2. Extended Warranty for Business Partners
-Recognizing the needs of our professional clients, we offer an **extended 15-Month Warranty** for bulk purchasers, including official distributors, dealerships, and authorized repair shops. This commitment provides our partners with an **additional three months of protection** and minimized inventory risk.
+###### 2. Rozszerzona Gwarancja dla Partnerów Biznesowych
+Uznając potrzeby naszych profesjonalnych klientów, oferujemy **rozszerzoną 15-Miesięczną Gwarancję** dla nabywców hurtowych, w tym oficjalnych dystrybutorów, dealerów i autoryzowanych warsztatów naprawczych. To zobowiązanie zapewnia naszym partnerom **dodatkowe trzy miesiące ochrony** i minimalizuje ryzyko związane z zapasami.
 
-###### 3. Our Final Commitment
-We guarantee that a Fortisor sensor will meet or exceed the performance and lifespan requirements of the original Scania unit.
+###### 3. Nasze Ostateczne Zobowiązanie
+Gwarantujemy, że czujnik Fortisor spełni lub przekroczy wymagania wydajności i trwałości oryginalnej jednostki Scania.
 
-
-
-#### Scania NOx Sensor OE Part Number Cross Reference
-Below is a reference list of Scania NOx Sensor OE Part Numbers. Please note that this list is not exhaustive.  
-If the specific OE Part Number you require is not listed above, please do not worry. Fortisor is capable of supplying the NOx sensor for any OE number you may need. For any unlisted OE part number inquiries, please contact us directly at fortisor@163.com.
+#### Scania Czujnik NOx - Numery Referencyjne Części OE
+Poniżej znajduje się lista referencyjna numerów części OE czujników NOx do Scania. Należy pamiętać, że ta lista nie jest wyczerpująca.
+Jeśli nie ma na niej numeru części OE, którego potrzebujesz, nie martw się. Fortisor jest w stanie dostarczyć czujnik NOx dla każdego potrzebnego numeru OE. W przypadku zapytań dotyczących numerów części OE, które nie zostały wymienione, prosimy o bezpośredni kontakt pod adresem fortisor@163.com.
 
 | 1         | 2         | 3         | 4         | 5         |6          |
 | ---       | ---       | ---       | ---       | ---       | ---       |
@@ -94,4 +92,4 @@ If the specific OE Part Number you require is not listed above, please do not wo
 |5WK96612E  |5WK97400   |5WK97401   |5WK96694   |5WK96612F  |5WK96612D  |
 |5WK96695C  |5WK96694C  | 5WK96679C |           |           |           |
  
-***If you have a need for NOx sensors, please contact us immediately at fortisor@163.com.***
+***Jeśli potrzebujesz czujników NOx, skontaktuj się z nami natychmiast pod adresem fortisor@163.com.***
